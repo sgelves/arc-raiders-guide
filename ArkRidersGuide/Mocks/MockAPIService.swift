@@ -1,6 +1,6 @@
 import Foundation
 
-nonisolated final class MockAPIService: APIServiceProtocol {
+final class MockAPIService: APIServiceProtocol {
     var mockItems: [Item] = MockData.items
     var mockEnemies: [ArcEnemy] = MockData.enemies
     var mockEnemyDetail: ArcEnemyDetail = MockData.enemyDetail

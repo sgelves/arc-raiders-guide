@@ -1,6 +1,6 @@
 import Foundation
 
-nonisolated final class MockChecklistStorage: ChecklistStorageProtocol {
+final class MockChecklistStorage: ChecklistStorageProtocol {
     private var stored: Set<String> = []
 
     func checkedIds() -> Set<String> {

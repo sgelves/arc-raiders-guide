@@ -1,6 +1,6 @@
 import Foundation
 
-nonisolated final class APIService: APIServiceProtocol {
+final class APIService: APIServiceProtocol {
     private let session: URLSession
     private let decoder: JSONDecoder
 

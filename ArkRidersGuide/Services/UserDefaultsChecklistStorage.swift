@@ -1,6 +1,6 @@
 import Foundation
 
-nonisolated final class UserDefaultsChecklistStorage: ChecklistStorageProtocol {
+final class UserDefaultsChecklistStorage: ChecklistStorageProtocol {
     private let defaults: UserDefaults
     private let key = "materials_checklist_checked_ids"
 

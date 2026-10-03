@@ -1,6 +1,6 @@
 import SwiftUI
 
-nonisolated final class ImageCacheService: Sendable {
+final class ImageCacheService: Sendable {
     static let shared = ImageCacheService()
 
     private let cache = NSCache<NSString, UIImage>()

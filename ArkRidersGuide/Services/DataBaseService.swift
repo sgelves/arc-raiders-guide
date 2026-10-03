@@ -12,7 +12,7 @@ struct PaginationCursor: Sendable {
     let snapshot: DocumentSnapshot
 }
 
-nonisolated final class DataBaseService: Sendable {
+final class DataBaseService: Sendable {
     private let db = Firestore.firestore()
     private let collection = "reports"
 
